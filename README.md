@@ -1,5 +1,9 @@
 # VTSideMenu
-A simple sideMenu lib for iOS 
+A simple sideMenu lib for iOS
+
+# GIF
+![](https://github.com/VincentDengSZ/VTSideMenu/raw/master/VTSideMenu.gif)
+
 #Getting Started
 
 **Using [CocoaPods](http://cocoapods.org)**
@@ -28,10 +32,28 @@ Check out the [example project](https://github.com/VincentDengSZ/VTSideMenu/tree
 
 **Usage**
 
-The way to create a SideMenu is:
+The way to create a SideMenu:
 
 ```objc
  [VTSideMenuManager initSideMenuController:[SideMenuViewController new] width:250];
+```
+
+
+The way to make side menu slide out:
+
+
+```objc
+
+  [self sideMenuSlideOut];// called by a UIViewController instance 
+
+```
+The way to make side menu slide int:
+
+
+```objc
+
+ [self sideMenuSlideIn]; // called by a UIViewController instance 
+
 ```
 #License
 MIT

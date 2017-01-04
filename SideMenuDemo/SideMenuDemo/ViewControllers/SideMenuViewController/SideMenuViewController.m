@@ -23,7 +23,7 @@
 - (NSArray *)sourceArray{
     
     if (_sourceArray == nil) {
-        _sourceArray = @[@"menu1",@"menu2",@"menu3",@"menu4",@"menu5",@"menu6",@"menu7",@"menu8",@"menu9",@"menu10",@"menu11",@"menu12",@"menu13",@"menu14",@"menu15",@"menu16",@"menu17",@"menu18",@"menu19",];
+        _sourceArray = @[@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu",@"menu"];
     }
     
     return _sourceArray;
