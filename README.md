@@ -12,7 +12,6 @@ pod 'VTSideMenu', '~> 1.0.0'
 
 3.`#import UIViewController+SideMenu.h` wherever you want to use the API 
 
-4.`#import VTSideMenu` wherever you want to use the API with .
 
 **Manually from GitHub**
 
