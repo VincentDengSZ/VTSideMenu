@@ -6,11 +6,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        It is a sideMenu view used on iOS, which implement by Objective-C and Swift.
                        DESC
-  s.homepage         = "https://github.com/VincentDengSZ/VTSideMenu
+  s.homepage         = "https://github.com/VincentDengSZ/VTSideMenu"
   s.license          = 'MIT'
-  s.author           = { "VincentDeng" => "vincentDeng@4dxm.com" }
-  s.source           = { :git => "https://github.com/VincentDengSZ/VTSideMenu.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/NAME'
+  s.author           = { 'VincentDeng' => 'VincentDeng@4dxm.com' }
+ s.source = { :git => 'https://github.com/VincentDengSZ/VTSideMenu.git', :tag => s.version.to_s }
 
   s.platform     = :ios, '10'
   # s.ios.deployment_target = '10'
@@ -24,5 +23,6 @@ Pod::Spec.new do |s|
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   s.frameworks = 'Foundation', 'UIKit'
+   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 
 end

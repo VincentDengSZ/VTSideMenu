@@ -24,9 +24,8 @@ class TestViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
-//        self.navigationController?.popViewController(animated: true)
+        self.navigationController?.popViewController(animated: true)
         
-          label.layer.setAffineTransform(CGAffineTransform(translationX: 100, y: 0))
     }
     /*
     // MARK: - Navigation
