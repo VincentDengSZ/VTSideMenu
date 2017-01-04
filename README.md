@@ -15,8 +15,7 @@ pod 'VTSideMenu', '~> 1.0.0'
 
 **Manually from GitHub**
 
-1.Download the `UIViewController+SideMenu.h` , `UIViewController+SideMenu.m` ,`VTSideMenuManager.h` , `VTSideMenuManager.m` files in th [Source directory](https://github.com/VincentDengSZ/VTSideMenu)  for Objective-C.
-
+1.Download the `UIViewController+SideMenu.h` , `UIViewController+SideMenu.m` ,`VTSideMenuManager.h` , `VTSideMenuManager.m` files in th [Source directory](https://github.com/VincentDengSZ/VTSideMenu)  
 
 2.Add the files to your Xcode project.
 
@@ -25,7 +24,7 @@ pod 'VTSideMenu', '~> 1.0.0'
 
 **Example location**
 
-Check out the [example project](https://github.com/VincentDengSZ/VTSideMenu/SideMenuDemo) included in the repository. It contains a few demos of the API in use for various scenarios. 
+Check out the [example project](https://github.com/VincentDengSZ/VTSideMenu/tree/master/SideMenuDemo) included in the repository. It contains a few demos of the API in use for various scenarios. 
 
 **Usage**
 
